@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import * as API from '../services/api';
+import * as API from '../pictures/api';
 
 import Searchbar from './Searchbar';
 import ImageGallery from './ImageGallery';
