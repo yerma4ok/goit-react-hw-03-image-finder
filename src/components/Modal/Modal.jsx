@@ -28,13 +28,13 @@ class Modal extends Component {
       <div className="overlay" onClick={this.onBackdropClick}>
         <div className="modal">{this.props.children}</div>
       </div>,
-      document.querySelector('#modal-root')
+      document.querySelector('#root')
     );
   }
 }
 
 Modal.propTypes = {
-  children: PropTypes.node.isRequired,
+  largeImageURL: PropTypes.node.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
